@@ -1,2 +1,8 @@
 # Projects
-How to tackle a Project with "project > requirements > plan > code" strategy
+__How to tackle a Project__ with `project > requirements > plan > code" strategy`
+
+##  Project
+##  Requirements
+##  Plan
+##  Code
+
