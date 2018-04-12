@@ -49,7 +49,7 @@ When player wins the game, a congratulations modal displays, including: time spe
 ##  TODO-list MEMORYGAME
 BEFORE GAME STARTS
 
-### STEP 1: CARD DECK (gameboard)
+### STEP 1: CREATE A CARD DECK (gameboard)
 __GOAL__: CREATE A GRID OF 16 CARDS
 // Create a GRID for the game
 - Create an array with all the icons 
@@ -60,10 +60,10 @@ __GOAL__: CREATE A GRID OF 16 CARDS
 
 - Create a reference to the deck (== deck of all cards in game)
 
-### STEP 2: CARD LIST
+### STEP 2: CREATE A CARD LIST
 __GOAL__: Add each card to the GRID
 //Add each card´s HTML to the page (ul): deck > li > i/ 
-- Create a unordered list element (ul)
+- Create a unordered list element (ul) from an array (https://stackoverflow.com/a/11128791/8498100)
 - Create a list element (li)
 - Add a "CLASS" to the (li)
 - Create an icon element (i)
@@ -71,9 +71,17 @@ __GOAL__: Add each card to the GRID
 - Append (i) to (li) element 
 - Append (li) element to (ul) "the deck" 
 
-### FROM HERE DRAFT (working on the logics) ### 
+### STEP 3: CREATE A 
+### STEP 4: START THE GAME 
+Don’t start the game on page load, instead start it on first card click `addEventListener` 
+### STEP 5: CREATE A 
+### STEP 6: CREATE A 
+### STEP 7: CREATE A 
 
-- Don’t start the game on page load, instead start it on first card click `addEventListener` 
+
+
+### FROM HERE DRAFT (working on the logics) ### 
+- 
 - Don’t forget to handle the logic when the user click on the same card more than once, `if` statement maybe? 
 -  Make a separate function for the timer, start it on first card click and reset `clear` it when restart button clicked.
 -  Do not try to make your cards show on the deck and add the eventListener at the same time 
