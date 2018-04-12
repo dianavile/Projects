@@ -9,6 +9,12 @@ __How to tackle the MemoryGame Project3__ with `project > requirements > plan > 
 - Review and understand the given project files structure.
 
 ##  Project specifications (game logics & functionality)
+
+### Memory Game Logic
+- The game randomly shuffles the cards. 
+- A user wins once all cards have successfully been matched.
+
+### Memory Game Functionality
 1. __Shuffle Cards__: Shuffle cards randomly on load or restart
 The Cards need to be shuffled on load or restart.
 2. __Matching Cards__: 
@@ -46,9 +52,11 @@ BEFORE GAME STARTS
 ### STEP 1: CARD DECK (gameboard)
 __GOAL__: CREATE A GRID OF 16 CARDS
 // Create a GRID for the game
-- Create an array with all the icons (16 cards= 8 pair of cards)
-- (This array is needed for the shuffle function (param array and returns an array in the end). 
-  The returned array= the shuffled array you put in. Store this in a new array: Create a `const`and assign it the array.)
+- Create an array with all the icons 
+
+- 16 cards= 8 pair of cards
+- This array is needed for the shuffle function (param array and returns an array in the end. 
+  The returned array= the shuffled array you put in. Store this in a new array: Create a `const`and assign it the array.
 
 - Create a reference to the deck (== deck of all cards in game)
 
