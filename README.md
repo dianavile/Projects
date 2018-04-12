@@ -132,10 +132,10 @@ Each loop adds an EventListener for a click on the card, and runs the displayCar
 
 ##  Progress
 DAY1:
-1 Read the Project Requirements
-2 Download the starterscode
-3 Put starterscode in CodePen
-4 Create a TODOLIST
+- 1 Read the Project Requirements
+- 2 Download the starterscode
+- 3 Put starterscode in CodePen
+- 4 Create a TODOLIST
 
 ##  Questions
 
