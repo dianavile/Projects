@@ -2,8 +2,22 @@
 __How to tackle the MemoryGame Project3__ with `project > requirements > plan > code" strategy`
 
 ##  Project
+1. Shuffle Cards: Shuffle cards randomly on load or restart
+The Cards need to be shuffled on load or restart.
+2. Matching Cards: 
+The Game need to know how to handle matched and unmatched cards.
+3. Moves:  
+The Game displays the current number of moves a user has made.
+4. Star Rating: 
+The game shows star rating system (1-3). It reflects player’s performance based on number of moves. 
+5. The Timer: 
+When a player starts a game,  a displayed timer starts. When player wins the game, timer stops.
+6. Restart button: 
+The restart button allows player to reset the gameboard, timer and star rating system.
+7. A Congratulations Modal: 
+When player wins the game, a congratulations modal displays, including: time spend, star rating & play again button 
 
-##  Requirements
+##  Game Requirements
 - A grid with 16 cards
 - 8 different pairs of cards
 - Cards are randomly placed 
@@ -19,8 +33,7 @@ __How to tackle the MemoryGame Project3__ with `project > requirements > plan > 
 - Timer
 - Move counter
 
-##  Plan
-TODO LIST MEMORYGAME
+##  Plan GAMEDEVELOPMENT: TODO list MEMORYGAME
 1  create an array/ done 
 2  shuffle cards and store in new array / done 
 3  create a loop and iterate over all cards/ TODO
