@@ -5,4 +5,7 @@ __How to tackle a Project__ with `project > requirements > plan > code" strategy
 ##  Requirements
 ##  Plan
 ##  Code
+##  Progress
+##  Questions
+
 
