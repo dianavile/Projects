@@ -49,19 +49,14 @@ When player wins the game, a congratulations modal displays, including: time spe
 ##  TODO-list MEMORYGAME
 BEFORE GAME STARTS
 
-### STEP 1: CREATE A CARD DECK (gameboard)
-__GOAL__: CREATE A GRID OF 16 CARDS
+### STEP 1: CREATE A CARD DECK 
+__GOAL__: CREATE A GRID OF 16 CARDS (8 pairs of cards)
 // Create a GRID for the game
-- Create an array with all the icons 
-
-- 16 cards= 8 pair of cards
-- This array is needed for the shuffle function (param array and returns an array in the end. 
-  The returned array= the shuffled array you put in. Store this in a new array: Create a `const`and assign it the array.
-
+- Create an array with all the icons in it.
 - Create a reference to the deck (== deck of all cards in game)
 
-### STEP 2: CREATE A CARD LIST
-__GOAL__: Add each card to the GRID
+### STEP 2: CREATE A CARD LIST 
+__GOAL__: Add each card to the GRID/ Use DOM manipulation. 
 //Add each card´s HTML to the page (ul): deck > li > i/ 
 - Create a unordered list element (ul) from an array (https://stackoverflow.com/a/11128791/8498100)
 - Create a list element (li)
@@ -71,41 +66,79 @@ __GOAL__: Add each card to the GRID
 - Append (i) to (li) element 
 - Append (li) element to (ul) "the deck" 
 
-### STEP 3: CREATE A 
-### STEP 4: START THE GAME 
-Don’t start the game on page load, instead start it on first card click `addEventListener` 
-### STEP 5: CREATE A 
-### STEP 6: CREATE A 
-### STEP 7: CREATE A 
+### STEP 3: CREATE A SHUFFLE ARRAY
+- The first array is needed for the shuffle function (param array and returns an array in the end.) 
+- The returned array= the shuffled array you put in. 
+- Store this in a new array: Create a `const`and assign it the array.
+- Check if Array[1] is shuffled with console.log in DEV TOOLS.
 
+### STEP 4: CREATE EVENT LISTENER
+// Initiate the Game
+- Set up the event listener for a card. 
+//Game start when player clicks on first card.
+- Start the Game on CLICK (= first click card = `addEventListener`), Don’t start the game on page load.
 
-
-### FROM HERE DRAFT (working on the logics) ### 
-- 
-- Don’t forget to handle the logic when the user click on the same card more than once, `if` statement maybe? 
--  Make a separate function for the timer, start it on first card click and reset `clear` it when restart button clicked.
--  Do not try to make your cards show on the deck and add the eventListener at the same time 
-
-/*TODO: MEMORY GAME
- * If a card is clicked:
- 
- *  - display the card's symbol (put this functionality in another function that you call from this one)
- *  - add the card to a *list* of "open" cards (put this functionality in another function that you call from this one)
-  *  - if the list already has another card, check to see if the two cards match
- * IF MATCH, DO THIS: if the cards do match, lock the cards in the open position (put this functionality in another function that you call from this one)
- * ELSE, IF NO MATCH, DO THIS: if the cards do not match, remove the cards from the list and hide the card's symbol (put this functionality in another function that you call from this one)
- * MOVES increment the move counter and display it on the page (put this functionality in another function that you call from this one)
- * MODAL= if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
- */
-
-### STEP : CARD LIST
+### STEP 5: SHUFFLE THE CARDS
 // Cards are randomly placed 
 - Shuffle cards and store in new array= cards are randomly placed
 - The symbols face down
 
-### STEP 3: CREATE EVENT LISTENER
-// Initiate the Game
-- Set up the event listener for a card. 
+START THE GAME
+### STEP 6: START THE GAME: WHAT HAPPENS WHEN GAME START? 
+//Display the Card
+If 1 card is clicked:
+- display the card's symbol 
+Show the card on the deck.
+(put this functionality in another function that you call from this one)
+
+- Add the card to a *list* of "open" cards 
+(put this functionality in another function that you call from this one)
+
+If 2 card is clicked:
+//If 1 card is clicked 2= same card? user click on the same card more than once, `if` statement to prevent clicking 2 the same card
+
+//If 2 cards is different? 
+ - if the list already has another card, check to see if the two cards match
+
+ //IF CARDS MATCH, DO THIS: 
+- if the cards do match, lock the cards in the open position 
+ (put this functionality in another function that you call from this one)
+
+//ELSE, IF NO MATCH, DO THIS: 
+if the cards do not match, remove the cards from the list and hide the card's symbol 
+(put this functionality in another function that you call from this one)
+
+IMPORTANT! Do not try to make your cards show on the deck and add the eventListener at the same time 
+
+
+### FROM HERE DRAFT (working on the logics) ### 
+
+FINISH THE GAME
+### STEP 6:  CREATE A FINISH MODAL: WHAT HAPPENS WHEN GAME IS FINISHED? 
+// FINAL MODAL= 
+- if all cards have matched, (8 pairs= 16 cards, all shown), DO THIS
+- display a message with the final score 
+(put this functionality in another function that you call from this one)
+- Add Winner Message, Rating, Moves, Timer and Play Again button to Modal
+
+### STEP: CREATE A RESTART BUTTON
+### STEP: GAME SETTINGS (score)
+- Add Rating (Stars)
+- Add Moves
+- Add Timer
+- Add Restart button
+
+### STEP : CREATE A MOVES COUNTER
+//MOVES increment the move counter
+-  display it on the page 
+(put this functionality in another function that you call from this one)
+
+### STEP 6: CREATE A TIMER
+//Make a separate function for the timer
+- Start the timer on first card click 
+- Reset `clear` when restart button clicked.
+
+
 
 ### STEP 4: Display the cards on the page
 - shuffle the list of cards using the provided "shuffle" method below
@@ -127,12 +160,6 @@ Each loop adds an EventListener for a click on the card, and runs the displayCar
 12 function createDeck
 
 13 Shuffle function from http://stackoverflow.com/a/2450976
-
-### STEP ??: GAME SETTINGS (score)
-- Add Rating (Stars)
-- Add Moves
-- Add Timer
-- Add Restart button
 
 ###  DRAFT STOPS HERE (working on the logics) ### 
 
