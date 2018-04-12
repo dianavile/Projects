@@ -1,9 +1,9 @@
 # Projects
 __How to tackle the MemoryGame Project3__ with `project > requirements > plan > code" strategy`
 
-- Read the project rubric 
-- Understand the game logic, write a TODOLIST for the code
-- Download Starterscode. Open CodePen. 
+- Read the [project rubric](https://review.udacity.com/#!/rubrics/591/view) 
+- Understand the game logic: write a TODOLIST for the code
+- Download Starterscode. Open a new Pen in CodePen. 
 - Start with HTML & JavaScript (game logic and functionality first).
 - End with CSS (leave styling untill the end)
 - Review and understand the given project files structure.
@@ -67,7 +67,8 @@ __GOAL__: Add each card to the GRID
 
 - Don’t start the game on page load, instead start it on first card click `addEventListener` 
 - Don’t forget to handle the logic when the user click on the same card more than once, `if` statement maybe? 
--  Make a separate function for the timer, start it on first card click and reset `clear` it when restart button clicked. 
+-  Make a separate function for the timer, start it on first card click and reset `clear` it when restart button clicked.
+-  Do not try to make your cards show on the deck and add the eventListener at the same time 
 
 /*TODO: MEMORY GAME
  * If a card is clicked:
