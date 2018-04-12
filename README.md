@@ -1,5 +1,5 @@
 # Projects
-__How to tackle a Project__ with `project > requirements > plan > code" strategy`
+__How to tackle the MemoryGame Project3__ with `project > requirements > plan > code" strategy`
 
 ##  Project
 
