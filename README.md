@@ -11,7 +11,7 @@ The Game displays the current number of moves a user has made.
 4. __Star Rating__: 
 The game shows star rating system (1-3). It reflects player’s performance based on number of moves. 
 5. __The Timer__: 
-When a player starts a game,  a displayed timer starts. When player wins the game, timer stops.
+When a player starts a game, a displayed timer starts. When player wins the game, timer stops.
 6. __Restart button__: 
 The restart button allows player to reset the gameboard, timer and star rating system.
 7. __A Congratulations Modal__: 
@@ -33,24 +33,52 @@ When player wins the game, a congratulations modal displays, including: time spe
 - Timer
 - Move counter
 
-##  Plan GAMEDEVELOPMENT: TODO list MEMORYGAME
-1  Create an array/ (=A grid with 16 cards)
-2  Shuffle cards and store in new array / done 
-3  Create a loop and iterate over all cards/ TODO
-4  Add each card´s HTML to the page "gameboard": deck > li > i/ TODO
-*add li element "cards" & append to UL "deck"
+##  TODO-list MEMORYGAME
+BEFORE GAME STARTS
 
-5 Display the cards on the page
+### STEP 1: CARD DECK (gameboard)
+__GOAL__: CREATE A GRID OF 16 CARDS
+// Create a GRID for the game
+- Create an array (16 cards= 8 pair of cards)
+- Create a reference to the deck (== deck of all cards in game)
+
+### STEP 2: CARD LIST
+__GOAL__: Add each card to the GRID
+//Add each card´s HTML to the page (ul): deck > li > i/ 
+- Create a unordered list element (ul)
+- Create a list element (li)
+- Add a "CLASS" to the (li)
+- Create an icon element (i)
+- Add a "CLASS" to the (i) element from the array
+- Append (i) to (li) element 
+- Append (li) element to (ul) "the deck" 
+
+
+### FROM HERE DRAFT (working on the logics)
+### STEP : CARD LIST
+// Cards are randomly placed 
+- Shuffle cards and store in new array= cards are randomly placed
+
+- The symbols face down
+
+
+### STEP 3: CREATE EVENT LISTENER
+// Initiate the Game
+- Set up the event listener for a card. 
+
+### STEP 4: Display the cards on the page
+-  
 - shuffle the list of cards using the provided "shuffle" method below
+
+3  Create a loop and iterate over all cards/ TODO
 - loop through each card and create its HTML
 - add each card's HTML to the page
 
-6 Create reference to card-deck= deck of all cards in game 
+ function to initialize on page creation 
+shuffle Card and add cards to the array shuffledCards[]
 
-7 function to initialize on page creation 
-8 shuffle Card and add cards to the array shuffledCards[]
-9 Create a loop that iterates over each card element untill full lenght of cards array is covered. 
-10 Each loop adds an EventListener for a click on the card, and runs the displayCard function on click 
+Create a loop that iterates over each card element untill full lenght of cards array is covered. 
+Each loop adds an EventListener for a click on the card, and runs the displayCard function on click 
 
 11 Toggle
 - Run the displayCard function to toggle (Hide/Show) an Element 
@@ -59,22 +87,34 @@ When player wins the game, a congratulations modal displays, including: time spe
 12 function createDeck
 
 13 Shuffle function from http://stackoverflow.com/a/2450976
-// @param {array}
-// @returns shuffledarray
 
-/**TODO: MEMORY GAME
- * set up the event listener for a card. If a card is clicked:
+### STEP ??: GAME SETTINGS (score)
+- Add Rating (Stars)
+- Add Moves
+- Add Timer
+- Add Restart button
+
+
+/*TODO: MEMORY GAME
+ * If a card is clicked:
+ 
  *  - display the card's symbol (put this functionality in another function that you call from this one)
  *  - add the card to a *list* of "open" cards (put this functionality in another function that you call from this one)
- 
- *  - if the list already has another card, check to see if the two cards match
+  *  - if the list already has another card, check to see if the two cards match
  * IF MATCH, DO THIS: if the cards do match, lock the cards in the open position (put this functionality in another function that you call from this one)
  * ELSE, IF NO MATCH, DO THIS: if the cards do not match, remove the cards from the list and hide the card's symbol (put this functionality in another function that you call from this one)
  * MOVES increment the move counter and display it on the page (put this functionality in another function that you call from this one)
  * MODAL= if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
  */
  
+
 ##  Tools
+
+## EXAMPLE TUTORIALS
+* http://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript
+* https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript
+* http://www.developphp.com/video/JavaScript/Memory-Game-Programming-Tutorial
+* https://www.youtube.com/watch?v=c_ohDPWmsM0&sns=em
 
 ##  Code
 
