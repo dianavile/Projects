@@ -4,9 +4,23 @@ __How to tackle a Project__ with `project > requirements > plan > code" strategy
 ##  Project
 
 ##  Requirements
+- A grid with 16 cards
+- 8 different pairs of cards
+- Cards are randomly placed 
+- The symbols face down
+- On a click the card must turn and show the icon and stays turned
+- On a click on a different card the card must turn and show the icon
+- If the 2 turned cards match they stay turned
+- If the cards don't match they turn back
+- The game ends when all cards are flipped
+- When the game ends show a modal
+- Reset button
+- Star rating
+- Timer
+- Move counter
 
 ##  Plan
-TODO LIST MEMORYGAME 
+TODO LIST MEMORYGAME
 1  create an array/ done 
 2  shuffle cards and store in new array / done 
 3  create a loop and iterate over all cards/ TODO
