@@ -46,7 +46,10 @@ BEFORE GAME STARTS
 ### STEP 1: CARD DECK (gameboard)
 __GOAL__: CREATE A GRID OF 16 CARDS
 // Create a GRID for the game
-- Create an array (16 cards= 8 pair of cards)
+- Create an array with all the icons (16 cards= 8 pair of cards)
+- (This array is needed for the shuffle function (param array and returns an array in the end). 
+  The returned array= the shuffled array you put in. Store this in a new array: Create a `const`and assign it the array.)
+
 - Create a reference to the deck (== deck of all cards in game)
 
 ### STEP 2: CARD LIST
@@ -59,7 +62,6 @@ __GOAL__: Add each card to the GRID
 - Add a "CLASS" to the (i) element from the array
 - Append (i) to (li) element 
 - Append (li) element to (ul) "the deck" 
-
 
 ### FROM HERE DRAFT (working on the logics) ### 
 
