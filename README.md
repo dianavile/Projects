@@ -33,7 +33,6 @@ __How to tackle a Project__ with `project > requirements > plan > code" strategy
 - [Develop Problem solving skill](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2) 
 - [Debug JavaScript in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/) 
 
-
 # Project specifications MEMORY GAME 
 Read the [project specifications](https://review.udacity.com/#!/rubrics/591/view)
 
@@ -73,19 +72,19 @@ __In order to let the game work properly, the following is needed__:
 # TODO-list
 ## STEP 1: CREATE A CARD DECK game
 // Create a grid for the game
-1.1 Create an array[] with all the icons in it.
-1.2 *TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
-1.3 Create a reference to the deck (== deck of all cards in game)
+- 1.1 Create an array[] with all the icons in it.
+- 1.2 *TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
+- 1.3 Create a reference to the deck (== deck of all cards in game)
 
 ## STEP 2: CREATE A CARD LIST 
-//Add each card to the GRID= Use DOM manipulation.(=Add each card´s HTML to the page (ul): deck > li > i/) 
-2.1 <ul>[Create an unordered list element from an array] (https://stackoverflow.com/a/11128791/8498100)
-2.2 <li> Create a list element 
-2.3 "Class" to <li> Add a "CLASS" element to the list 
-2.4 <i> Create an icon element  
-2.5 "Class" to <i> Add a "CLASS" to the icon element from the array
-2.6 Append <i> to <li> element 
-2.7 Append <li> element to <ul> "the deck" 
+//Add each card to the GRID with [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).(=Add each card´s HTML to the page (ul): deck > li > i/) 
+- 2.1 <ul>[Create an unordered list element from an array] (https://stackoverflow.com/a/11128791/8498100)
+- 2.2 <li> Create a list element 
+- 2.3 "Class" to <li> Add a "CLASS" element to the list 
+- 2.4 <i> Create an icon element  
+- 2.5 "Class" to <i> Add a "CLASS" to the icon element from the array
+- 2.6 Append <i> to <li> element 
+- 2.7 Append <li> element to <ul> "the deck" 
 
 ## STEP 3: CREATE A SHUFFLE ARRAY
 - The first array is needed for the shuffle function (param array and returns an array in the end.) 
