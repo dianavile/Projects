@@ -80,7 +80,7 @@ __In order to let the game work properly, the following is needed__:
 //Add each card to the GRID with [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).(=Add each card´s HTML to the page (ul): deck > li > i/) 
 - 2.1`<ul>`[Create an unordered list element from an array](https://stackoverflow.com/a/11128791/8498100)`getElementById()`method 
 - 2.2`<li>`[Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)`document.createElement` method
-- 2.3 `Add "Class" to <li>`[Add a "CLASS" element to the list (https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp)`document.getElementByClassName`method
+- 2.3 `Add "Class" to <li>`[Add CLASS element to the list (https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp)`document.getElementByClassName`method
 - 2.4 `<i>`[Create an icon element]()
 - 2.5 `Add "Class" to <i>`[Add a "CLASS" to the icon element from the array]()
 
