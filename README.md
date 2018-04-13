@@ -1,21 +1,16 @@
 # Projects
 __How to tackle the MemoryGame Project3__ with `project > requirements > plan > code" strategy`
 
-THINK
 - Read the [project rubric](https://review.udacity.com/#!/rubrics/591/view) 
 - Understand the game logic: Write the Game Requirements & a TODOLIST with coding steps 
 - Research: search resources, add them to TODOLIST
-CREATE
 - Download Starterscode. 
 - Open a new Pen in CodePen. /Create a Repository in GitHub.
 - Start with HTML & JavaScript (game logic and functionality first).
-- End with CSS (leave styling untill the end)
-REVIEW
+- End with CSS (leave styling untill the end.)
 - Review and understand the given project files structure.
-SUBMIT
 
 ##  Project specifications (game logics & functionality)
-
 ### Memory Game Logic
 - The game randomly shuffles the cards. 
 - A user wins once all cards have successfully been matched.
@@ -33,6 +28,7 @@ The Game need to know how to handle matched and unmatched cards.
 including: time spend, star rating & play again button 
 
 ##  Game Requirements
+__In order to let the game work properly, the following is needed__:
 - A grid with 16 cards
 - 8 different pairs of cards
 - Cards are randomly placed 
@@ -49,12 +45,12 @@ including: time spend, star rating & play again button
 - Move counter
 
 ##  TODO-list MEMORYGAME
-BEFORE GAME STARTS
 
+_PART 1: BEFORE GAME STARTS:_
 ### STEP 1: CREATE A CARD DECK 
-__GOAL__: CREATE A GRID OF 16 CARDS (8 pairs of cards)
-// Create a GRID for the game
+__GOAL__: // Create a GRID for the game
 - Create an array with all the icons in it.
+TODO CREATE A GRID OF 16 CARDS (8 pairs of cards)
 - Create a reference to the deck (== deck of all cards in game)
 
 ### STEP 2: CREATE A CARD LIST 
@@ -85,7 +81,7 @@ __GOAL__: Add each card to the GRID/ Use DOM manipulation.
 - Shuffle cards and store in new array= cards are randomly placed
 - The symbols face down
 
-START THE GAME
+_PART 2: START THE GAME:_
 ### STEP 6: START THE GAME: WHAT HAPPENS WHEN GAME START? 
 //Display the Card
 If 1 card is clicked:
@@ -113,9 +109,10 @@ if the cards do not match, remove the cards from the list and hide the card's sy
 IMPORTANT! Do not try to make your cards show on the deck and add the eventListener at the same time 
 
 
-### FROM HERE DRAFT (working on the logics) ### 
-
 FINISH THE GAME
+
+<--------### FROM HERE DRAFT (working on the logics) ### 
+
 ### STEP 6:  CREATE A FINISH MODAL: WHAT HAPPENS WHEN GAME IS FINISHED? 
 // FINAL MODAL= 
 - if all cards have matched, (8 pairs= 16 cards, all shown), DO THIS
@@ -135,14 +132,12 @@ FINISH THE GAME
 -  display it on the page 
 (put this functionality in another function that you call from this one)
 
-### STEP 6: CREATE A TIMER
+### STEP : CREATE A TIMER
 //Make a separate function for the timer
 - Start the timer on first card click 
 - Reset `clear` when restart button clicked.
 
-
-
-### STEP 4: Display the cards on the page
+### STEP : Display the cards on the page
 - shuffle the list of cards using the provided "shuffle" method below
 
 3  Create a loop and iterate over all cards/ TODO
@@ -163,7 +158,7 @@ Each loop adds an EventListener for a click on the card, and runs the displayCar
 
 13 Shuffle function from http://stackoverflow.com/a/2450976
 
-###  DRAFT STOPS HERE (working on the logics) ### 
+###  DRAFT STOPS HERE (working on the logics) ### ----------------------------->
 
 ##  Tools & Resources
 - Debugging JavaScript in Chrome DevTools: https://developers.google.com/web/tools/chrome-devtools/javascript/ 
