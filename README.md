@@ -29,9 +29,9 @@ _"Everyone in this country should learn to program a computer, because it teache
 - Research: look for solutions for the subproblems.
 - Practice, practice, practice
 
-##  Tools & Resources
-- [Debug JavaScript in Chrome DevTools:](https://developers.google.com/web/tools/chrome-devtools/javascript/) 
-- [Develope Problem solving skill:](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2) 
+##  Resources & Tools
+- [Develope Problem solving skill](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2) 
+- [Debug JavaScript in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/) 
 
 ##  Project specifications (game logics & functionality)
 ### Memory Game Logic
