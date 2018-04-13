@@ -71,13 +71,9 @@ __In order to let the game work properly, the following is needed__:
 
 # TODO-list
 ## STEP 1: CREATE A CARD GRID
-// A grid with 16 cards: 
-Create a grid (with 16 cards) for the game
 - 1.1 [Create an `ARRAY[]`of all cards (with all the icons in it)](https://www.w3schools.com/js/js_arrays.asp)
-//8 different pairs of cards:
-The ARRAY must hold 8 pairs of cards (=16 cards) = add <i> (icon) or >img> (images) double to the array.
-- 1.2 `<ul>`[Create an <ul> from an array.](https://stackoverflow.com/a/11128791/8498100)
-RESULT: Created your array with cards.
+- 1.2 `<i>``<img>`[Add icon or images twice to the array]()=The ARRAY must hold 8 pairs of cards (16 cards=8pairs) 
+- 1.3 `<ul>`[Create an <ul> from an array](https://stackoverflow.com/a/11128791/8498100)
 
 ## STEP 2: CREATE A CARD LIST 
 //Add each card to the GRID with [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
@@ -86,14 +82,11 @@ Add elements to the DOM: =Add each card´s HTML to the page (ul): deck > li > i/
 - 2.1 `createElement`=create an element </li>/<i>/<ul>= 
  `<li>`= list [Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)` 
 
-
   <li> I <i>= icon I <ul>= unordered list.
-  
+ 
 - 2.2 [Add #id to <ul>]() ex. id="deck"
 - 2.3 `getElementById`or `querySelector`method = get an element by id. (From #id in html, the element is available in JavaScript)
 
-
-- 2.2
 = document.createElement` method
 - 2.3 `"Class" to <li>`[Add CLASS to list](https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp) =`document.getElementByClassName`method
 - 2.4 `<i>`[Create an icon element]()
@@ -102,7 +95,10 @@ Add elements to the DOM: =Add each card´s HTML to the page (ul): deck > li > i/
 - Select element from HTML: `document.getElementByClassName` method or `document.querySelector`method
 - Choose a const for the ul, in which you will have all cards
 
-A loop like for of - to loop over each element in the array.
+
+
+A for of loop to loop over each element in the array
+
 appendChild - to append your elements to your deck
 OR 1.4 Create a reference to the deck of all gamecards
 `characters-tags-tokens-nodes-DOM`
