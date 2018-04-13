@@ -1,6 +1,8 @@
 # Projects
 __How to tackle the MemoryGame Project3__ with `project > requirements > plan > code" strategy`
 
+_Everyone in this country should learn to program a computer, because it teaches you to think._ — Steve Jobs
+
 - Read the [project rubric](https://review.udacity.com/#!/rubrics/591/view) 
 - Understand the game logic: Write the Game Requirements & a TODOLIST with coding steps 
 - Research: search resources, add them to TODOLIST
