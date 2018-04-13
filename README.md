@@ -74,17 +74,24 @@ __In order to let the game work properly, the following is needed__:
 // Create a grid for the game
 - 1.1 [Create an `array[]`](https://www.w3schools.com/js/js_arrays.asp) with all the icons in it.
 - 1.2 TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
-- 1.3 Add `<id> to <ul>`: Create a reference to the deck of all gamecards
+- 1.3 Add `<id> to <ul>`: 
+- 1.4 Create a reference to the deck of all gamecards
 
 ## STEP 2: CREATE A CARD LIST 
 //Add each card to the GRID with [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).(=Add each card´s HTML to the page (ul): deck > li > i/) 
+
+Add elements to the DOM
+Select element from HTML `document.getElementByClassName` method or `document.querySelector`method
+Choose a const for the ul, in which you will have all cards
+
 - 2.1`<ul>`[Create an unordered list element from an array](https://stackoverflow.com/a/11128791/8498100)`getElementById()`method 
 - 2.2`<li>`[Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)`document.createElement` method
-- 2.3 `Add "Class" to <li>`[Add CLASS element to the list (https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp)`document.getElementByClassName`method
+- 2.3 `"Class" to <li>`[Add CLASS to list] (https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp) `document.getElementByClassName`method
 - 2.4 `<i>`[Create an icon element]()
-- 2.5 `Add "Class" to <i>`[Add a "CLASS" to the icon element from the array]()
+- 2.5 `"Class" to <i>`[Add "CLASS" to icon element from the array]()
 
 [`appendChild`method ](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+parent.appenChild(child-to-add)
 - 2.6 Append <i> to <li> element 
 - 2.7 Append <li> element to <ul> "the deck" 
 
