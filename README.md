@@ -72,14 +72,14 @@ __In order to let the game work properly, the following is needed__:
 # TODO-list
 ## STEP 1: CREATE A CARD DECK game
 // Create a grid for the game
-- 1.1 Create an array[] with all the icons in it.
-- 1.2 *TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
-- 1.3 Create a reference to the deck (== deck of all cards in game)
+- 1.1 [Create an `array[]`](https://www.w3schools.com/js/js_arrays.asp) with all the icons in it.
+- 1.2 TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
+- 1.3 Add `<id> to <ul>`: Create a reference to the deck of all gamecards
 
 ## STEP 2: CREATE A CARD LIST 
 //Add each card to the GRID with [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).(=Add each card´s HTML to the page (ul): deck > li > i/) 
-- 2.1 <ul>[Create an unordered list element from an array] (https://stackoverflow.com/a/11128791/8498100)
-- 2.2 <li> Create a list element 
+- 2.1`<ul>`[Create an unordered list element from an array] (https://stackoverflow.com/a/11128791/8498100)
+- 2.2`<li>`Create a list element 
 - 2.3 "Class" to <li> Add a "CLASS" element to the list 
 - 2.4 <i> Create an icon element  
 - 2.5 "Class" to <i> Add a "CLASS" to the icon element from the array
