@@ -82,7 +82,8 @@ CREATE A grid with 16 cards(8 pairs), randomly placed
 - 2.1 `<#ul>`= Create id for ul with class deck (e.g. #deck) 
 - 2.2 Delete the class .deck from HTML.
 - 2.3 `<ul>`[Create ul element] Create unordered list with length=16.
-- 2.4 `<li>`[Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)  
+- 2.4 `<li>`[Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp) 
+`const card = document.createElement("li");` 
 - 2.5 Add [CLASS .card to list elements](https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp) 
 - 2.6 `<li> to <ul> `=Append list as child to #deck.
 - 2.7 `<i>`= Create array with 16 icons (fa fa-x) (e.g. cardsArray).
