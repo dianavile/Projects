@@ -88,22 +88,22 @@ CREATE A grid with 16 cards(8 pairs), randomly placed
 - 2.7 `<i>`= Create array with 16 icons (fa fa-x) (e.g. cardsArray).
 
 ## STEP 3: SHUFFLE THE CARDS  & ADD SPECIFIC ICONS
-- 3.1 function to initialize on page creation 
-- 3.2 shuffle Card and add cards to the array shuffledCards[]
-      Use `for Of Loop` to loop over each element in the Array (e.g. shuffledArray).
 // RESULT: a grid of 16 cards with general icons.
+- 3.1 function to initialize on page creation 
+- 3.2 Add cards to array (e.g. `shuffledCards[]`). Use `for Of Loop` to loop over each element in the Array 
 // To create specific icons
-- 3.3 `<i>`= Create an icon element.
-- 3.4 For every icon in shuffledArray, append as CLASS to <i> `<i class="fa fa-anchor"></i>`
-- 3.5 Append <li> element to <ul>=  Append every <i> elements as a child of ul item to #deck with class .card
+- 3.3 `<i>`= Create icon element.
+- 3.4 `<i class="fa fa-anchor"></i>` Append each icon in shuffledArray, as CLASS to i. 
+- 3.5 `#deck with class .card` Append li to ul element/ Append each i elements as a child of ul 
  `<ulid=”deck”><li class="card"><i class="fa fa-anchor"></i></li></ul>`
 
 ## STEP 4: SHOW SYMBOLS FACE DOWN
-- 4.1 Use [CSS transform](https://www.w3schools.com/cssref/css3_pr_transform.asp).
+- 4.1 Use [CSS transform](https://www.w3schools.com/cssref/css3_pr_transform.asp) 
+- 4.2 OR [CSS opacity](https://www.w3schools.com/css/css_image_transparency.asp) 
 
 ### STEP 5: Add GAME SETTINGS (score)
-- 5.1 CREATE A Timer 
 //Make separate functions for the timer
+- 5.1 CREATE A Timer 
 - Start timer on Click 1st Card.
 - Reset timer to `clear` when restart button clicked.
 - Stop Timer when all cards guesses (16) are right.
@@ -113,10 +113,8 @@ CREATE A grid with 16 cards(8 pairs), randomly placed
 - Add Restart button
 
 - 5.3 CREATE STAR RATING
-- Add Rating (Stars)
-- `If moves >= x  change 1 star classname`, 
-- `Else if moves >= y  change another star`
-- `Else if moves >= z  change another star`
+- Add Rating (Stars) 
+`If moves >= x  change 1 star classname, Else if moves >= y  change another star, Else if moves >= z  change another star`
 
 - 5.4 CREATE A MOVES COUNTER 
 //Add MOVES increment the move counter
@@ -146,6 +144,10 @@ IMPORTANT! Do not try to make your cards show on the deck and add the eventListe
 
 - 7.2 //OPTION 2= CARD = DIFFERENT CARD
 - Create var matchedArray.
+-Create a function for matching cards:  
+`if count < 2 count ++`			
+`if count === 1 assign first guess`			
+`else assign secondguess`	
 - Connect var to <span> tag in <section>.
 - Add event listener(‘click’) to #deck list items 
 
@@ -154,12 +156,15 @@ IMPORTANT! Do not try to make your cards show on the deck and add the eventListe
 - 7.3 IF CARDS MATCH, DO THIS:
 - lock cards in open position= add to `matchedArray(“)`
 - .empty temporary array = card cannot be clicked anymore.
+- add delay for animation to finish
+
+if firstX && secondX MATCH:			
+`if firstX === secondX
+run MATCH`
 
 7.4 ELSE (IF NO MATCH), DO THIS: 
-- remove the cards from the list and hide the card's symbol (put this functionality in another function that you call from this one)
-
-if not: remove class .open(“)8.empty temporary array
-
+- if not: remove the cards from the list `remove class .open(“)`
+- hide the card's symbol `.empty temporary array`
 
 cardguess 1 = 2 cards
 cardguess 2=  4 cards
@@ -170,7 +175,14 @@ cardguess 6=  12 cards
 cardguess 7=  142 cards
 cardguess 8=  16 cards
 
+`if matchCount = 16 
+stop timer 
+give win modal a classname`			
+`reset guesses`
 
+Create a start/reset function (addEventlistener) 
+`resets firstX, secondX and the matchedArray` 
+`remove classname '.selected'`
 
 ### STEP 8: CREATE A "GAME FINISHED" MODAL
 8.1 Create a winning logic `count 1+ to var "winCount"`
