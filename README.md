@@ -81,14 +81,18 @@ __In order to let the game work properly, the following is needed__:
 //Add each card to the GRID with [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).(=Add each card´s HTML to the page (ul): deck > li > i/) 
 
 Add elements to the DOM
-Select element from HTML `document.getElementByClassName` method or `document.querySelector`method
-Choose a const for the ul, in which you will have all cards
-
-- 2.1`<ul>`[Create an unordered list element from an array](https://stackoverflow.com/a/11128791/8498100)`getElementById()`method 
-- 2.2`<li>`[Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)`document.createElement` method
-- 2.3 `"Class" to <li>`[Add CLASS to list] (https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp) `document.getElementByClassName`method
+- 2.1`<ul>`[Create an unordered list element from an array](https://stackoverflow.com/a/11128791/8498100)
+  = DOM method `document.getElementById();`
+- 2.2`<li>`[Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)`
+ = document.createElement` method
+- 2.3 `"Class" to <li>`[Add CLASS to list](https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp) `document.getElementByClassName`method
 - 2.4 `<i>`[Create an icon element]()
 - 2.5 `"Class" to <i>`[Add "CLASS" to icon element from the array]()
+
+Select element from HTML 
+`document.getElementByClassName` method or `document.querySelector`method
+
+Choose a const for the ul, in which you will have all cards
 
 [`appendChild`method ](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 parent.appenChild(child-to-add)
