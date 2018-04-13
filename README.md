@@ -70,8 +70,7 @@ __In order to let the game work properly, the following is needed__:
 - Timer
 - Move counter
 
-# TODO-list MEMORYGAME
-
+# TODO-list
 ## STEP 1: CREATE A CARD DECK game
 // Create a grid for the game
 1.1 Create an array[] with all the icons in it.
