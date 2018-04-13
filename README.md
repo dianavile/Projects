@@ -30,7 +30,7 @@ __How to tackle a Project__ with `project > requirements > plan > code" strategy
 - `Practice`, practice, practice
 
 ##  Resources & Tools
-- [Develope Problem solving skill](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2) 
+- [Develop Problem solving skill](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2) 
 - [Debug JavaScript in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/) 
 
 
@@ -72,26 +72,25 @@ __In order to let the game work properly, the following is needed__:
 
 # TODO-list MEMORYGAME
 
-_PART 1: BEFORE GAME STARTS:_
-## STEP 1: CREATE A CARD DECK 
-// Create a GRID for the game
-- Create an array with all the icons in it.
-*TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
-- Create a reference to the deck (== deck of all cards in game)
+## STEP 1: CREATE A CARD DECK game
+// Create a grid for the game
+1.1 Create an array[] with all the icons in it.
+1.2 *TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
+1.3 Create a reference to the deck (== deck of all cards in game)
 
 ## STEP 2: CREATE A CARD LIST 
 //Add each card to the GRID= Use DOM manipulation.(=Add each card´s HTML to the page (ul): deck > li > i/) 
-- <ul>[Create an unordered list element from an array] (https://stackoverflow.com/a/11128791/8498100)
-- <li> Create a list element 
-- "Class" to <li> Add a "CLASS" element to the list 
-- <i> Create an icon element  
-- "Class" to <i> Add a "CLASS" to the icon element from the array
-- Append <i> to <li> element 
-- Append <li> element to <ul> "the deck" 
+2.1 <ul>[Create an unordered list element from an array] (https://stackoverflow.com/a/11128791/8498100)
+2.2 <li> Create a list element 
+2.3 "Class" to <li> Add a "CLASS" element to the list 
+2.4 <i> Create an icon element  
+2.5 "Class" to <i> Add a "CLASS" to the icon element from the array
+2.6 Append <i> to <li> element 
+2.7 Append <li> element to <ul> "the deck" 
 
 ## STEP 3: CREATE A SHUFFLE ARRAY
 - The first array is needed for the shuffle function (param array and returns an array in the end.) 
-- The returned array= the shuffled array you put in. 
+- The returned array= the shuffled array[] you put in. 
 - Store this in a new array: Create a `const`and assign it the array.
 - Check if Array[1] is shuffled with console.log in DEV TOOLS.
 
@@ -106,7 +105,6 @@ _PART 1: BEFORE GAME STARTS:_
 - Shuffle cards and store in new array= cards are randomly placed
 - The symbols face down
 
-_PART 2: START THE GAME:_
 ## STEP 6: START THE GAME: WHAT HAPPENS WHEN GAME START? 
 //Display the Card
 If 1 card is clicked:
