@@ -19,16 +19,12 @@ __How to tackle the MemoryGame Project3__ with `project > requirements > plan > 
 The Cards need to be shuffled on load or restart.
 2. __Matching Cards__: 
 The Game need to know how to handle matched and unmatched cards.
-3. __Moves__:  
-The Game displays the current number of moves a user has made.
-4. __Star Rating__: 
-The game shows star rating system (1-3). It reflects player’s performance based on number of moves. 
-5. __The Timer__: 
-When a player starts a game, a displayed timer starts. When player wins the game, timer stops.
-6. __Restart button__: 
-The restart button allows player to reset the gameboard, timer and star rating system.
-7. __A Congratulations Modal__: 
-When player wins the game, a congratulations modal displays, including: time spend, star rating & play again button 
+3. __Moves__: The Game displays the current number of moves a user has made.
+4. __Star Rating__: The game shows star rating system (1-3). It reflects player’s performance based on number of moves. 
+5. __The Timer__: When a player starts a game, a displayed timer starts. When player wins the game, timer stops.
+6. __Restart button__: The restart button allows player to reset the gameboard, timer and star rating system.
+7. __A Congratulations Modal__: When player wins the game, a congratulations modal displays
+including: time spend, star rating & play again button 
 
 ##  Game Requirements
 - A grid with 16 cards
