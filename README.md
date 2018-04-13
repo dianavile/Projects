@@ -3,7 +3,7 @@ __How to tackle the MemoryGame Project3__ with `project > requirements > plan > 
 
 _"Everyone in this country should learn to program a computer, because it teaches you to think"._ — Steve Jobs
 
-- __UNDERSTAND__
+__UNDERSTAND__
 - Read the [project rubric](https://review.udacity.com/#!/rubrics/591/view) 
 - Understand the game logic: Write the Game Requirements 
 - TODOLIST: write the "problems to solve" down (small steps) in a TODOLIST
