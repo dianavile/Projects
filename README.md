@@ -70,7 +70,7 @@ __In order to let the game work properly, the following is needed__:
 - Move counter
 
 # TODO-list
-CREATE A grid with 16 cards(8x2 pairs), randomly placed
+CREATE A grid with 16 cards(8 pairs), randomly placed
 ## STEP 1: CREATE A CARD GRID
 - 1.1 `ARRAY[]`[Create an ARRAY of all cards as objects](https://www.w3schools.com/js/js_arrays.asp)
 - 1.2 [Duplicate the array to get 8 pairs]=The ARRAY must hold 8 pairs of cards(16 cards=8pairs) 
