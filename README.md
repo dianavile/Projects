@@ -1,12 +1,18 @@
 # Projects
 __How to tackle the MemoryGame Project3__ with `project > requirements > plan > code" strategy`
 
+THINK
 - Read the [project rubric](https://review.udacity.com/#!/rubrics/591/view) 
-- Understand the game logic: write a TODOLIST for the code
-- Download Starterscode. Open a new Pen in CodePen. 
+- Understand the game logic: Write the Game Requirements & a TODOLIST with coding steps 
+- Research: search resources, add them to TODOLIST
+CREATE
+- Download Starterscode. 
+- Open a new Pen in CodePen. /Create a Repository in GitHub.
 - Start with HTML & JavaScript (game logic and functionality first).
 - End with CSS (leave styling untill the end)
+REVIEW
 - Review and understand the given project files structure.
+SUBMIT
 
 ##  Project specifications (game logics & functionality)
 
