@@ -118,8 +118,19 @@ CREATE A grid with 16 cards(8 pairs), randomly placed
 `If moves >= x  change 1 star classname, Else if moves >= y  change another star, Else if moves >= z  change another star`
 
 - 5.4 CREATE A MOVES COUNTER 
-//Add MOVES increment the move counter
+//ÇMake Conditions with move count
 - Display moves function on page (put this functionality in another function that you call from this one)
+`if (moveCount >=12 && moveCount < X) {
+starList.lastElementChild.firstElementChild  //(the <i> tag) display none
+} else if (moveCount >= x){ 
+ //starList.lastElementChild.previousSibling.firstElementChild display none
+}`
+OR 
+`if (moveCount >=12 && moveCount < X) {
+// change i tag's class to empty star (fontawesome 4) 
+} else if (moveCount >= x){ 
+// or second option change its class to another that will show the empty star
+};`
 
 ## STEP 6: CREATE `AddEventListener` on `Click` 
 // Start the Game on `CLICK` to flip the cards and count the moves. Don’t start the game on page load.
