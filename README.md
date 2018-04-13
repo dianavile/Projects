@@ -73,8 +73,7 @@ __In order to let the game work properly, the following is needed__:
 CREATE A grid with 16 cards(8 pairs), randomly placed
 ## STEP 1: CREATE A CARD GRID
 - 1.1 `ARRAY[]`[Create an ARRAY of all cards as objects](https://www.w3schools.com/js/js_arrays.asp)
-- 1.2 [Duplicate the array to get 8 pairs]=The ARRAY must hold 8 pairs of cards(16 cards=8pairs) 
-`<i><img>`Add icons/images twice to array
+- 1.2 `<i><img>` [Duplicate the array] to get 8 pairs of cards= Add icons/images twice to array
 - 1.3 `<ul>`[Create an ul from an array](https://stackoverflow.com/a/11128791/8498100)
 
 ## STEP 2: CREATE LIST OF 8 PAIRS of CARDS
