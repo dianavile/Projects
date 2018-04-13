@@ -80,32 +80,55 @@ CREATE A grid with 16 cards(8x2 pairs), randomly placed
 ## STEP 2: CREATE LIST OF 8 PAIRS of CARDS
 //Show all card elements on the HTML (`Document= = html`)
 [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-- 2.1 `<#ul>`= Create id for <ul> with class .deck (e.g. #deck) 
+- 2.1 `<#ul>`= Create id for ul with class deck (e.g. #deck) 
 - 2.2 Delete the class .deck from HTML.
 - 2.3 `<ul>`[Create ul element] Create unordered list with length=16.
- -2.4 `<li>`[Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)`  
-- 2.5 [Add CLASS .card to list elements](https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp) 
+- 2.4 `<li>`[Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)  
+- 2.5 Add [CLASS .card to list elements](https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp) 
 - 2.6 `<li> to <ul> `=Append list as child to #deck.
 - 2.7 `<i>`= Create array with 16 icons (fa fa-x) (e.g. cardsArray).
 
- ## STEP 3: SHUFFLE THE CARDS  & ADD SPECIFIC ICONS
-- 3.1 Use `for Of Loop` to loop over each element in the Array (e.g. shuffledArray).
+## STEP 3: SHUFFLE THE CARDS  & ADD SPECIFIC ICONS
+- 3.1 function to initialize on page creation 
+- 3.2 shuffle Card and add cards to the array shuffledCards[]
+      Use `for Of Loop` to loop over each element in the Array (e.g. shuffledArray).
 // RESULT: a grid of 16 cards with general icons.
 // To create specific icons
-- 3.2 `<i>`= Create an icon element.
-- 3.3 For every icon in shuffledArray, append as CLASS to <i> `<i class="fa fa-anchor"></i>`
-- 3.4 Append <li> element to <ul>=  Append every <i> elements as a child of ul item to #deck with class .card
+- 3.3 `<i>`= Create an icon element.
+- 3.4 For every icon in shuffledArray, append as CLASS to <i> `<i class="fa fa-anchor"></i>`
+- 3.5 Append <li> element to <ul>=  Append every <i> elements as a child of ul item to #deck with class .card
  `<ulid=”deck”><li class="card"><i class="fa fa-anchor"></i></li></ul>`
 
 ## STEP 4: SHOW SYMBOLS FACE DOWN
 - 4.1 Use [CSS transform](https://www.w3schools.com/cssref/css3_pr_transform.asp).
+
+### STEP 5: Add GAME SETTINGS (score)
+- 5.1 CREATE A Timer 
+//Make separate functions for the timer
+- Start timer on Click 1st Card.
+- Reset timer to `clear` when restart button clicked.
+- Stop Timer when all cards guesses (16) are right.
+- Show Timer on Winning modal	
+
+- 5.2 CREATE A RESTART BUTTON
+- Add Restart button
+
+- 5.3 CREATE STAR RATING
+- Add Rating (Stars)
+- `If moves >= x  change 1 star classname`, 
+- `Else if moves >= y  change another star`
+- `Else if moves >= z  change another star`
+
+- 5.4 CREATE A MOVES COUNTER 
+//Add MOVES increment the move counter
+- Display moves function on page (put this functionality in another function that you call from this one)
 
 ## STEP 5: CREATE `AddEventListener` on `Click` 
 // Start the Game on `CLICK` to flip the cards and count the moves. Don’t start the game on page load.
 - 5.1 Setup on `Click`Event listener as "first card is clicked" 
 - 5.2 TURN THE CARD (flip the card) __HOW?__
 - 5.3 ADD DELAY to flipped card (= CSS animation)
-- 5.3 START THE TIMER: Create var "moveCounter" `onclick.addEventlistener`. Show it above the game.		
+- 5.3 START THE TIMER on first card click: Create var "moveCounter" `onclick.addEventlistener`. Show it above the game.		
 -5.4 SHOW ICON of CARD
 -5.5 CARD STAYS OPEN (Leave 1st card turned)
 
@@ -120,111 +143,36 @@ IMPORTANT! Do not try to make your cards show on the deck and add the eventListe
 // If 2 card is clicked: OPTION 1 or OPTION 2
 7.1 OPTION 1= CARD = SAME CARD= Use`if` statement to prevent User click on the same card twice
 
-
-- 5.3 Create var matchedArray.
-- 5.4 Connect var to <span> tag in <section>.
-- 5.5·Add event listener(‘click’) to #deck list items 
-
-
-//OPTION 2= CARD = DIFFERENT CARD
- - if the list already has another card, check to see if the two cards match
- //IF CARDS MATCH, DO THIS: 
-- if the cards do match, lock the cards in the open position 
- (put this functionality in another function that you call from this one)
-//ELSE, IF NO MATCH, DO THIS: 
-if the cards do not match, remove the cards from the list and hide the card's symbol 
-(put this functionality in another function that you call from this one)
+7.2 //OPTION 2= CARD = DIFFERENT CARD
+- Create var matchedArray.
+- Connect var to <span> tag in <section>.
+- Add event listener(‘click’) to #deck list items 
+- MATCH-NO MATCH= if the list already has another card, check to see if the two cards match
+7.3 IF CARDS MATCH, DO THIS: 
+- lock the cards in the open position (put this functionality in another function that you call from this one)
+cardguess 1 = 2 cards
+cardguess 2=  4 cards
+cardguess 3=  6 cards
+cardguess 4=  8 cards
+cardguess 5=  10 cards
+cardguess 6=  12 cards
+cardguess 7=  142 cards
+cardguess 8=  16 cards
+7.4 ELSE (IF NO MATCH), DO THIS: 
+- remove the cards from the list and hide the card's symbol (put this functionality in another function that you call from this one)
 
 ### STEP 8: CREATE A "GAME FINISHED" MODAL
-// FINAL MODAL= 
-- if all cards have matched, (8 pairs= 16 cards, all shown), DO THIS
-- display a message with the final score 
-(put this functionality in another function that you call from this one)
+8.1 Create a winning logic `count 1+ to var "winCount"`
+8.2 If all cards have matched/ (16 correct guesses= 8 pairs= 16 cards, all shown), `If winCount = 16;`, 
+8.3 DO THIS: Execute code for the winning modal screen 
+- Stop the timer
+- Create modal screen
 - Add Winner Message, Rating, Moves, Timer and Play Again button to Modal
-
-RESOURCES:
--  `document.getElementById or `document.querySelector`method 
-get an element by id. (From #id in html, the element is available in JavaScript)
-- `parent.appenChild(child-to-add)`[`appendChild`method](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
-- [Node interface](https://developer.mozilla.org/en-US/docs/Web/API/Node)
-`document.getElementByClassName`,
-SHUFFLE THE CARDS
-// Cards are randomly placed 
-- Shuffle cards and store in new array= cards are randomly placed
-- Make a shuffle function (with ARRAY of all cards)	
-Loop through the cards: Randomize the cardsArray
-The first array is needed for the shuffle function (param array and returns an array in the end.) 
-make an empty ARRAY for shuffled cards 		
-- The returned array= the shuffled array[] you put in. 
-make an ARRAY (const)& assign it	
-- Store this in a new array: Create a `const`and assign it the array.
-- Check if Array[1] is shuffled with console.log in DEV TOOLS.
-DRAFT
-
-
-<--------### FROM HERE DRAFT (working on the logics) ### 
-
+8.4 Display (show) Modal: Screen Shows (time, stars, moves, restart button)
 	
-	
-				
-"3 create matching logic 
-              move counter 
-              guess(es) counter"				
-	if firstguess === secondguess then change css so then won't flip			
-				
-4 create star rating				
-	"If moves >= 3 then change 1 star classname, 
-If moves >= 6 then change another star"			
-				
-5 create a timer				
-	Timer should pause when all 16 guesses are right and the time should show on the winning modal			
-				
-6 create a winning logic				
-	In the  code for the matching logic, count 1+ to a variable like winCount and then execute the code for the winning modal screen If winCount = 16			
-	if all 16 guesses are right then stop the timer, show modal screen that shows: time, stars, moves, restart button			
-				
-7 create modal screens				
-	The restart button sets timer, star rating, moves, guesses to 0, also the game deck has to flip all cards and randomize them. and modal should close			
+The restart button sets timer, star rating, moves, guesses to 0, also the game deck has to flip all cards and randomize them. 
+and modal should close
 
-### STEP: CREATE A RESTART BUTTON
-### STEP: GAME SETTINGS (score)
-- Add Rating (Stars)
-- Add Moves
-- Add Timer
-- Add Restart button
-
-### STEP : CREATE A MOVES COUNTER
-//MOVES increment the move counter
--  display it on the page 
-(put this functionality in another function that you call from this one)
-
-### STEP : CREATE A TIMER
-//Make a separate function for the timer
-- Start the timer on first card click 
-- Reset `clear` when restart button clicked.
-
-### STEP : Display the cards on the page
-- shuffle the list of cards using the provided "shuffle" method below
-
-3  Create a loop and iterate over all cards/ TODO
-- loop through each card and create its HTML
-- add each card's HTML to the page
-
- function to initialize on page creation 
-shuffle Card and add cards to the array shuffledCards[]
-
-Create a loop that iterates over each card element untill full lenght of cards array is covered. 
-Each loop adds an EventListener for a click on the card, and runs the displayCard function on click 
-
-11 Toggle
-- Run the displayCard function to toggle (Hide/Show) an Element 
-- And disable card when "open 
-
-12 function createDeck
-
-13 Shuffle function from http://stackoverflow.com/a/2450976
-
-###  DRAFT STOPS HERE (working on the logics) ### ----------------------------->
 
 ##  Tools & Resources
 - Debugging JavaScript in Chrome DevTools: https://developers.google.com/web/tools/chrome-devtools/javascript/ 
@@ -249,3 +197,14 @@ DAY1:
 ##  Questions
 
 
+<--------### FROM HERE DRAFT (working on the logics) ### 
+Create a loop that iterates over each card element untill full lenght of cards array is covered. 
+Each loop adds an EventListener for a click on the card, and runs the displayCard function on click 
+
+Toggle
+- Run the displayCard function to toggle (Hide/Show) an Element 
+- Disable card when "open 
+
+Make createDeck function 
+Shuffle function from http://stackoverflow.com/a/2450976
+DRAFT STOPS HERE (working on the logics)  ----------------------------->
