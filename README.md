@@ -6,12 +6,12 @@ _"Everyone in this country should learn to program a computer, because it teache
 ##__STEP 1: UNDERSTAND__
 - Read the [project specifications](https://review.udacity.com/#!/rubrics/591/view) 
 - Understand the game logic: Write the Game Requirements (game logics & functionality)
-- TODOLIST: write the "problems to solve" down (small steps) in a TODOLIST
+- Write the "problems to solve" down (small steps) in a __TODOLIST__
 - Research: search resources, add them to TODOLIST
 
 ##__STEP 2: PLAN__
 - Download Starterscode. 
-- Open a new Pen in CodePen. /Create a Repository in GitHub.
+- Open a new Pen in CodePen. OR Create a Repository in GitHub.
 - Add TODOLIST in startersfiles as -COMMENTS-
 
 ##__STEP 3: DIVIDE__
@@ -33,12 +33,13 @@ _"Everyone in this country should learn to program a computer, because it teache
 - [Develope Problem solving skill](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2) 
 - [Debug JavaScript in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/) 
 
-##  Project specifications (game logics & functionality)
-### Memory Game Logic
+
+#  Project specifications (game logics & functionality)
+## Memory Game Logic
 - The game randomly shuffles the cards. 
 - A user wins once all cards have successfully been matched.
 
-### Memory Game Functionality
+## Memory Game Functionality
 1. __Shuffle Cards__: Shuffle cards randomly on load or restart
 The Cards need to be shuffled on load or restart.
 2. __Matching Cards__: 
@@ -67,27 +68,26 @@ __In order to let the game work properly, the following is needed__:
 - Timer
 - Move counter
 
-##  TODO-list MEMORYGAME
+# TODO-list MEMORYGAME
 
 _PART 1: BEFORE GAME STARTS:_
-### STEP 1: CREATE A CARD DECK 
+## STEP 1: CREATE A CARD DECK 
 // Create a GRID for the game
 - Create an array with all the icons in it.
 *TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
 - Create a reference to the deck (== deck of all cards in game)
 
-### STEP 2: CREATE A CARD LIST 
-//Add each card to the GRID= Use DOM manipulation. 
-//Add each card´s HTML to the page (ul): deck > li > i/ 
-- [Create a unordered list element] <ul>from an array (https://stackoverflow.com/a/11128791/8498100)
-- Create a list element <li>
-- Add a "CLASS" to the <li> 
-- Create an icon element <i> 
-- Add a "CLASS" to the <i> element from the array
+## STEP 2: CREATE A CARD LIST 
+//Add each card to the GRID= Use DOM manipulation.(=Add each card´s HTML to the page (ul): deck > li > i/) 
+- <ul>[Create an unordered list element from an array] (https://stackoverflow.com/a/11128791/8498100)
+- <li> Create a list element 
+- "Class" to <li> Add a "CLASS" element to the list 
+- <i> Create an icon element  
+- "Class" to <i> Add a "CLASS" to the icon element from the array
 - Append <i> to <li> element 
 - Append <li> element to <ul> "the deck" 
 
-### STEP 3: CREATE A SHUFFLE ARRAY
+## STEP 3: CREATE A SHUFFLE ARRAY
 - The first array is needed for the shuffle function (param array and returns an array in the end.) 
 - The returned array= the shuffled array you put in. 
 - Store this in a new array: Create a `const`and assign it the array.
@@ -105,7 +105,7 @@ _PART 1: BEFORE GAME STARTS:_
 - The symbols face down
 
 _PART 2: START THE GAME:_
-### STEP 6: START THE GAME: WHAT HAPPENS WHEN GAME START? 
+## STEP 6: START THE GAME: WHAT HAPPENS WHEN GAME START? 
 //Display the Card
 If 1 card is clicked:
 - display the card's symbol 
@@ -133,15 +133,16 @@ IMPORTANT! Do not try to make your cards show on the deck and add the eventListe
 
 
 FINISH THE GAME
-
-<--------### FROM HERE DRAFT (working on the logics) ### 
-
-### STEP 6:  CREATE A FINISH MODAL: WHAT HAPPENS WHEN GAME IS FINISHED? 
+### STEP :  CREATE A FINISH MODAL: WHAT HAPPENS WHEN GAME IS FINISHED? 
 // FINAL MODAL= 
 - if all cards have matched, (8 pairs= 16 cards, all shown), DO THIS
 - display a message with the final score 
 (put this functionality in another function that you call from this one)
 - Add Winner Message, Rating, Moves, Timer and Play Again button to Modal
+
+<--------### FROM HERE DRAFT (working on the logics) ### 
+
+
 
 ### STEP: CREATE A RESTART BUTTON
 ### STEP: GAME SETTINGS (score)
