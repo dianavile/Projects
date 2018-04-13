@@ -34,14 +34,14 @@ __How to tackle a Project__ with `project > requirements > plan > code" strategy
 - [Debug JavaScript in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/) 
 
 
-# Project specifications MEMORY GAME (game logics & functionality)
+# Project specifications MEMORY GAME 
 Read the [project specifications](https://review.udacity.com/#!/rubrics/591/view)
 
-## Memory Game Logic
+## Game Logics
 - The game randomly shuffles the cards. 
 - A user wins once all cards have successfully been matched.
 
-## Memory Game Functionality
+## Game Functionality
 1. __Shuffle Cards__: Shuffle cards randomly on load or restart
 The Cards need to be shuffled on load or restart.
 2. __Matching Cards__: 
@@ -53,7 +53,7 @@ The Game need to know how to handle matched and unmatched cards.
 7. __A Congratulations Modal__: When player wins the game, a congratulations modal displays
 including: time spend, star rating & play again button 
 
-##  Memory Game Requirements
+## Game Requirements
 __In order to let the game work properly, the following is needed__:
 - A grid with 16 cards
 - 8 different pairs of cards
