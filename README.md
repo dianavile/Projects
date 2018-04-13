@@ -123,7 +123,7 @@ CREATE A grid with 16 cards(8 pairs), randomly placed
 //Add MOVES increment the move counter
 - Display moves function on page (put this functionality in another function that you call from this one)
 
-## STEP 5: CREATE `AddEventListener` on `Click` 
+## STEP 6: CREATE `AddEventListener` on `Click` 
 // Start the Game on `CLICK` to flip the cards and count the moves. Don’t start the game on page load.
 - 5.1 Setup on `Click`Event listener as "first card is clicked" 
 - 5.2 TURN THE CARD (flip the card) __HOW?__
@@ -132,24 +132,36 @@ CREATE A grid with 16 cards(8 pairs), randomly placed
 -5.4 SHOW ICON of CARD
 -5.5 CARD STAYS OPEN (Leave 1st card turned)
 
- ## STEP 6: ON CLICK = Display 1 Card
+ ## STEP 7: ON CLICK = Display 1 Card
 //If 1 card is clicked:  display the card's symbol 
 - 6.1 Show the card on the deck.= Add CSS class .show to item (functionality, called within event listener function)
 - 6.2 Stores the item in a temporary array (“) 
 IMPORTANT! Do not try to make your cards show on the deck and add the eventListener at the same time 
 - 6.3 Add the card to a *list* of "openCards" (put this functionality in another function that you call from this one)
 
-## STEP 7: Click on 2nd Card
+## STEP 8: Click on 2nd Card
 // If 2 card is clicked: OPTION 1 or OPTION 2
-7.1 OPTION 1= CARD = SAME CARD= Use`if` statement to prevent User click on the same card twice
+- 7.1 OPTION 1= CARD= SAME CARD= Use`if` statement to prevent User click on the same card twice
+- create condition: if `temporary array` already holds another item...
+- check if they are equal (===);
 
-7.2 //OPTION 2= CARD = DIFFERENT CARD
+- 7.2 //OPTION 2= CARD = DIFFERENT CARD
 - Create var matchedArray.
 - Connect var to <span> tag in <section>.
 - Add event listener(‘click’) to #deck list items 
+
 - MATCH-NO MATCH= if the list already has another card, check to see if the two cards match
-7.3 IF CARDS MATCH, DO THIS: 
-- lock the cards in the open position (put this functionality in another function that you call from this one)
+
+- 7.3 IF CARDS MATCH, DO THIS:
+- lock cards in open position= add to `matchedArray(“)`
+- .empty temporary array = card cannot be clicked anymore.
+
+7.4 ELSE (IF NO MATCH), DO THIS: 
+- remove the cards from the list and hide the card's symbol (put this functionality in another function that you call from this one)
+
+if not: remove class .open(“)8.empty temporary array
+
+
 cardguess 1 = 2 cards
 cardguess 2=  4 cards
 cardguess 3=  6 cards
@@ -158,8 +170,8 @@ cardguess 5=  10 cards
 cardguess 6=  12 cards
 cardguess 7=  142 cards
 cardguess 8=  16 cards
-7.4 ELSE (IF NO MATCH), DO THIS: 
-- remove the cards from the list and hide the card's symbol (put this functionality in another function that you call from this one)
+
+
 
 ### STEP 8: CREATE A "GAME FINISHED" MODAL
 8.1 Create a winning logic `count 1+ to var "winCount"`
