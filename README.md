@@ -1,24 +1,24 @@
 # Projects
-__How to tackle the MemoryGame Project3__ with `project > requirements > plan > code" strategy`
+__How to tackle a Project__ with `project > requirements > plan > code" strategy`
 
 _"Everyone in this country should learn to program a computer, because it teaches you to think"._ — Steve Jobs
 
-__UNDERSTAND__
-- Read the [project rubric](https://review.udacity.com/#!/rubrics/591/view) 
-- Understand the game logic: Write the Game Requirements 
+##__STEP 1: UNDERSTAND__
+- Read the [project specifications](https://review.udacity.com/#!/rubrics/591/view) 
+- Understand the game logic: Write the Game Requirements (game logics & functionality)
 - TODOLIST: write the "problems to solve" down (small steps) in a TODOLIST
 - Research: search resources, add them to TODOLIST
-
+##__STEP 2: PLAN__
 - Download Starterscode. 
 - Open a new Pen in CodePen. /Create a Repository in GitHub.
 - Add TODOLIST in startersfiles as -COMMENTS-
-
-- Divide: Solve the problems step-by-step according to TODOLIST (_problems & subproblems_).
+##__STEP 3: DIVIDE__
+- Solve the problems step-by-step according to TODOLIST (_problems & subproblems_).
 - Solve each sub-problem one by one (not all at once!)
 - Once you solved every sub-problem, connect the dots.
 - Start with HTML & JavaScript (game logic and functionality first).
 - End with CSS (leave styling untill the end.)
-
+##__STEP 4: REVIEW__ _Debug, Reassess, Research & Practice__
 - Stuck: Review and understand the given project files structure.
 - Debug: figure out what you "really" told your program to do
 - Reassess: Take a step back: How to solve this problem with general principles on a more global level? 
