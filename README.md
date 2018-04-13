@@ -8,16 +8,19 @@ _"Everyone in this country should learn to program a computer, because it teache
 - Understand the game logic: Write the Game Requirements (game logics & functionality)
 - TODOLIST: write the "problems to solve" down (small steps) in a TODOLIST
 - Research: search resources, add them to TODOLIST
+
 ##__STEP 2: PLAN__
 - Download Starterscode. 
 - Open a new Pen in CodePen. /Create a Repository in GitHub.
 - Add TODOLIST in startersfiles as -COMMENTS-
+
 ##__STEP 3: DIVIDE__
 - Solve the problems step-by-step according to TODOLIST (_problems & subproblems_).
 - Solve each sub-problem one by one (not all at once!)
 - Once you solved every sub-problem, connect the dots.
 - Start with HTML & JavaScript (game logic and functionality first).
 - End with CSS (leave styling untill the end.)
+
 ##__STEP 4: REVIEW__ _Debug, Reassess, Research & Practice__
 - Stuck: Review and understand the given project files structure.
 - Debug: figure out what you "really" told your program to do
@@ -25,6 +28,10 @@ _"Everyone in this country should learn to program a computer, because it teache
 - Still stuck? Start anew: Delete everything and begin again with fresh eyes.
 - Research: look for solutions for the subproblems.
 - Practice, practice, practice
+
+##  Tools & Resources
+- [Debug JavaScript in Chrome DevTools:](https://developers.google.com/web/tools/chrome-devtools/javascript/) 
+- [Develope Problem solving skill:](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2) 
 
 ##  Project specifications (game logics & functionality)
 ### Memory Game Logic
@@ -64,21 +71,21 @@ __In order to let the game work properly, the following is needed__:
 
 _PART 1: BEFORE GAME STARTS:_
 ### STEP 1: CREATE A CARD DECK 
-__GOAL__: // Create a GRID for the game
+// Create a GRID for the game
 - Create an array with all the icons in it.
-TODO CREATE A GRID OF 16 CARDS (8 pairs of cards)
+*TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
 - Create a reference to the deck (== deck of all cards in game)
 
 ### STEP 2: CREATE A CARD LIST 
-__GOAL__: Add each card to the GRID/ Use DOM manipulation. 
+//Add each card to the GRID= Use DOM manipulation. 
 //Add each card´s HTML to the page (ul): deck > li > i/ 
-- Create a unordered list element (ul) from an array (https://stackoverflow.com/a/11128791/8498100)
-- Create a list element (li)
-- Add a "CLASS" to the (li)
-- Create an icon element (i)
-- Add a "CLASS" to the (i) element from the array
-- Append (i) to (li) element 
-- Append (li) element to (ul) "the deck" 
+- [Create a unordered list element] <ul>from an array (https://stackoverflow.com/a/11128791/8498100)
+- Create a list element <li>
+- Add a "CLASS" to the <li> 
+- Create an icon element <i> 
+- Add a "CLASS" to the <i> element from the array
+- Append <i> to <li> element 
+- Append <li> element to <ul> "the deck" 
 
 ### STEP 3: CREATE A SHUFFLE ARRAY
 - The first array is needed for the shuffle function (param array and returns an array in the end.) 
