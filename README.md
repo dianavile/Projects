@@ -71,9 +71,9 @@ __In order to let the game work properly, the following is needed__:
 
 # TODO-list
 ## STEP 1: CREATE A CARD GRID
-- 1.1 [Create an `ARRAY[]`of all cards (with all the icons in it)](https://www.w3schools.com/js/js_arrays.asp)
-- 1.2 `<i>``<img>`[Add icon or images twice to the array]()=The ARRAY must hold 8 pairs of cards (16 cards=8pairs) 
-- 1.3 `<ul>`[Create an <ul> from an array](https://stackoverflow.com/a/11128791/8498100)
+- 1.1 `ARRAY[]`[Create an ARRAY of all cards (with all icons in it)](https://www.w3schools.com/js/js_arrays.asp)
+- 1.2 `<i><img>`[Add icons/images twice to array]()=The ARRAY must hold 8 pairs of cards(16 cards=8pairs) 
+- 1.3 `<ul>`[Create an ul from an array](https://stackoverflow.com/a/11128791/8498100)
 
 ## STEP 2: CREATE A CARD LIST 
 //Add each card to the GRID with [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
