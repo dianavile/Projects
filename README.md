@@ -6,7 +6,7 @@ __How to tackle a Project__ with `project > requirements > plan > code" strategy
 ##__STEP 1: UNDERSTAND__
 - Read the __project specifications__
 - __Understand the game logic:__ Write the Game Requirements (game logics & functionality)
-- Write the "problems-to-solve" down  as small steps in a __TODOLIST__
+- Write the "_problems-to-solve_" down  as small steps in a __TODOLIST__
 - __Research:__ search resources, add them to TODOLIST
 
 ##__STEP 2: PLAN__
