@@ -70,38 +70,60 @@ __In order to let the game work properly, the following is needed__:
 - Move counter
 
 # TODO-list
-## STEP 1: CREATE A CARD DECK game
-// Create a grid for the game
-- 1.1 [Create an `array[]`](https://www.w3schools.com/js/js_arrays.asp) with all the icons in it.
-- 1.2 TODO: CREATE A GRID OF 16 CARDS (8 pairs of cards)
-- 1.3 Add `<id> to <ul>`: 
-- 1.4 Create a reference to the deck of all gamecards
+## STEP 1: CREATE A CARD GRID
+// A grid with 16 cards: 
+Create a grid (with 16 cards) for the game
+- 1.1 [Create an `ARRAY[]`of all cards (with all the icons in it)](https://www.w3schools.com/js/js_arrays.asp)
+//8 different pairs of cards:
+The ARRAY must hold 8 pairs of cards (=16 cards) = add <i> (icon) or >img> (images) double to the array.
+- 1.2 `<ul>`[Create an <ul> from an array.](https://stackoverflow.com/a/11128791/8498100)
+RESULT: Created your array with cards.
 
 ## STEP 2: CREATE A CARD LIST 
-//Add each card to the GRID with [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).(=Add each card´s HTML to the page (ul): deck > li > i/) 
+//Add each card to the GRID with [DOM manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
+//Show the card on the HTML (`Document= = html`)
+Add elements to the DOM: =Add each card´s HTML to the page (ul): deck > li > i/
+- 2.1 `createElement`=create an element </li>/<i>/<ul>= 
+ `<li>`= list [Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)` 
 
-Add elements to the DOM
-- 2.1`<ul>`[Create an unordered list element from an array](https://stackoverflow.com/a/11128791/8498100)
-  = DOM method `document.getElementById();`
-- 2.2`<li>`[Create a list element](https://www.w3schools.com/jsref/met_document_createelement.asp)`
- = document.createElement` method
-- 2.3 `"Class" to <li>`[Add CLASS to list](https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp) `document.getElementByClassName`method
+
+  <li> I <i>= icon I <ul>= unordered list.
+  
+- 2.2 [Add #id to <ul>]() ex. id="deck"
+- 2.3 `getElementById`or `querySelector`method = get an element by id. (From #id in html, the element is available in JavaScript)
+
+
+- 2.2
+= document.createElement` method
+- 2.3 `"Class" to <li>`[Add CLASS to list](https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp) =`document.getElementByClassName`method
 - 2.4 `<i>`[Create an icon element]()
 - 2.5 `"Class" to <i>`[Add "CLASS" to icon element from the array]()
 
-Select element from HTML 
-`document.getElementByClassName` method or `document.querySelector`method
+- Select element from HTML: `document.getElementByClassName` method or `document.querySelector`method
+- Choose a const for the ul, in which you will have all cards
 
-Choose a const for the ul, in which you will have all cards
+A loop like for of - to loop over each element in the array.
+appendChild - to append your elements to your deck
+OR 1.4 Create a reference to the deck of all gamecards
+`characters-tags-tokens-nodes-DOM`
 
+`parent.appenChild(child-to-add)`
 [`appendChild`method ](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
-parent.appenChild(child-to-add)
 - 2.6 Append <i> to <li> element 
 - 2.7 Append <li> element to <ul> "the deck" 
 
+[Node interface](https://developer.mozilla.org/en-US/docs/Web/API/Node)
+
+
+
 ## STEP 3: CREATE A SHUFFLE ARRAY
-- The first array is needed for the shuffle function (param array and returns an array in the end.) 
+- Make a shuffle function (with ARRAY of all cards)	
+The first array is needed for the shuffle function (param array and returns an array in the end.) 
+
+make an empty ARRAY for shuffled cards 		
 - The returned array= the shuffled array[] you put in. 
+
+ make an ARRAY (const)& assign it	
 - Store this in a new array: Create a `const`and assign it the array.
 - Check if Array[1] is shuffled with console.log in DEV TOOLS.
 
