@@ -4,7 +4,7 @@ _"Everyone should learn to program a computer, because it teaches you to think".
 __How to tackle a Project__ with `project > requirements > plan > code" strategy`
 
 ##__STEP 1: UNDERSTAND__
-- Read the [project specifications](https://review.udacity.com/#!/rubrics/591/view) 
+- Read the __project specifications__
 - Understand the game logic: Write the Game Requirements (game logics & functionality)
 - Write the "problems to solve" down (small steps) in a __TODOLIST__
 - Research: search resources, add them to TODOLIST
@@ -35,6 +35,7 @@ __How to tackle a Project__ with `project > requirements > plan > code" strategy
 
 
 #  Project specifications (game logics & functionality)
+Read the [project specifications] (https://review.udacity.com/#!/rubrics/591/view) 
 ## Memory Game Logic
 - The game randomly shuffles the cards. 
 - A user wins once all cards have successfully been matched.
