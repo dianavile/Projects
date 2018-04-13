@@ -34,8 +34,9 @@ __How to tackle a Project__ with `project > requirements > plan > code" strategy
 - [Debug JavaScript in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/) 
 
 
-#  Project3 specifications MEMORY GAME (game logics & functionality)
-Read the [project specifications](https://review.udacity.com/#!/rubrics/591/view) 
+# Project specifications MEMORY GAME (game logics & functionality)
+Read the [project specifications](https://review.udacity.com/#!/rubrics/591/view)
+
 ## Memory Game Logic
 - The game randomly shuffles the cards. 
 - A user wins once all cards have successfully been matched.
