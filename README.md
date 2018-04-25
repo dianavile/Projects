@@ -1,7 +1,7 @@
 _"Everyone should learn to program a computer, because it teaches you to think"._ — Steve Jobs
 
 # Projects
-__How to tackle a Project__ with `project > requirements > plan > code" strategy`
+__How to tackle a Project__ with `project > requirements > plan > code strategy`
 
 ##__STEP 1: UNDERSTAND__
 - Read the __project specifications__
