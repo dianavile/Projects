@@ -1,5 +1,7 @@
 _"Everyone should learn to program a computer, because it teaches you to think"._ — Steve Jobs
 
+![Coding](https://github.com/dianavile/Projects/blob/master/img/Coding.png)
+
 # Projects
 __How to tackle a Project__ with `project > requirements > plan > code strategy`
 
