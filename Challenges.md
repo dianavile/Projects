@@ -58,6 +58,3 @@ WORKING ON IT!
 - [] 28 - Video Speed Controller	
 - [] 29 - Countdown Timer	
 - [] 30 - Whack A Mole	
-
-### [JAVASCRIPT-ZELL](https://learnjavascript.today/)
-
