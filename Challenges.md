@@ -1,12 +1,34 @@
 # Challenges 🔥
 Here you find all challenges I am involved in.
 
+WORKING ON IT!
+
 ### [DAILY CHALLENGES]() 
+- [X] 01 - 3 Column Layout
+- [X] 02-  CSS grid layout with gradients
+- [] 03 - 
+- [] 04 - 
+- [] 05 - 
+- [] 06 - 
+- [] 07 - 
+- [] 08 - 
+- [] 09 - 
+- [] 10 - 
+- [] 11 - 
+- [] 12 - 
+- [] 13 - 
+- [] 14 - 
+- [] 15 - 
+- [] 16 - 
+- [] 17 - 
+- [] 18 - 
+- [] 19 - 
+- [] 20 - 
 
 ### [30DAYS, 30WEBSITES](http://www.codelegy.com/30days30sites/)
 
 ### [30 DAYS JAVASCRIPT-WES_BOS](https://github.com/wesbos/JavaScript30)
-- [] 01 - JavaScript Drum Kit	
+- [X] 01 - JavaScript Drum Kit	
 - [] 02 - JS and CSS Clock	
 - [] 03 - CSS Variables
 - [] 04 - Array Cardio Day 1	
@@ -39,5 +61,3 @@ Here you find all challenges I am involved in.
 
 ### [JAVASCRIPT-ZELL]()
 
-#### Resources
-- [Daily Challenges]()
