@@ -1,17 +1,17 @@
 # Challenges
 Here you find all challenges I have did.
 
-### __DAILY CHALLENGES: __
+### DAILY CHALLENGES 
 - [Daily Challenges]()
 
-### __30DAYS, 30WEBSITES __
+### 30DAYS, 30WEBSITES
 - [30 days, 30 websites]()
 
-### __30 DAYS JAVASCRIPT-WES_BOS__
+### 30 DAYS JAVASCRIPT-WES_BOS
 - [30 days JavaScript]()
 
-### __JAVASCRIPT-ZELL: __
+### JAVASCRIPT-ZELL
 ![JavaScript Zell]()
 
 #### Resources
-![Daily Challenges]()
+- [Daily Challenges]()
