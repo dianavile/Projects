@@ -9,12 +9,12 @@ Here you find all projects I have made.
 
 - ### [Google Udacity - Full scholarschip Front-End Developer Nanodegree (Phase 2)](https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001)
  - **1.&nbsp;Web Foundations:**  
-     - [x] [PROJECT1: Animal Trading Cards]()  
-     - [x] [[PROJECT2: Portfolio Site]()   
+     - [x] [PROJECT1: Animal Trading Cards](https://codepen.io/dianavile/pen/VQMOYp)  
+     - [x] [[PROJECT2: Portfolio Site](https://dianavile.github.io/Udacity-Portfolio/)   
   - **2.&nbsp;Web Programming with JavaScript:**  
-     - [x] [PROJECT3: MemoryGame]()  
+     - [x] [PROJECT3: MemoryGame](https://dianavile.github.io/Memory/)  
  - **3.&nbsp;Exploring JS - Objects, Tools and Testing**  
-     - [ ] [PROJECT4: Classic Arcade Game clone]() 
+     - [x] [PROJECT4: Classic Arcade Game clone](https://dianavile.github.io/ArcadeGame/) 
      - [ ] [PROJECT5: Feed Reader testing]()  
  - **4.&nbsp;Front End Applications:**  
      - [ ] [Restaurant Reviews App]()    
