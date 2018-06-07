@@ -21,7 +21,7 @@ Here you find all projects I have made.
      - [x] [Cat Clicker Pro (version 3)](https://dianavile.github.io/Cat-Clicker-Pro/)
      
  - **4.&nbsp;Front End Applications:**  
-     - [ ] [Restaurant Reviews App]()    
+     - [ ] [PROJECT6: Restaurant Reviews App]()    
   - **5.&nbsp;Building with React:**  
      - [ ] [PROJECT7: MyReads -a book tracking app]() 
      - [ ] [PROJECT8: Neighbour Map]() 
