@@ -16,11 +16,8 @@ Here you find all projects I have made.
  - **3.&nbsp;Exploring JS - Objects, Tools and Testing**  
      - [x] [PROJECT4: Classic Arcade Game clone](https://dianavile.github.io/ArcadeGame/) 
      - [x] [PROJECT5: Feed Reader testing](https://dianavile.github.io/Jasmine-Test-FeedReader/)
-     - [x] [Cat Clicker Basic (version 1)](https://dianavile.github.io/Cat-Clicker-Basic/) 
-     - [x] [Cat Clicker Premium (version 2)](https://dianavile.github.io/Cat-Clicker-Premium/) 
-     - [x] [Cat Clicker Pro (version 3)](https://dianavile.github.io/Cat-Clicker-Pro/)
-     
- - **4.&nbsp;Front End Applications:**  
+  
+  - **4.&nbsp;Front End Applications:**  
      - [ ] [PROJECT6: Restaurant Reviews App]()    
   - **5.&nbsp;Building with React:**  
      - [ ] [PROJECT7: MyReads -a book tracking app]() 
