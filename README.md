@@ -18,7 +18,7 @@ Here you find all projects I have made.
      - [x] [PROJECT5: Feed Reader testing](https://dianavile.github.io/Jasmine-Test-FeedReader/)
   
   - **4.&nbsp;Front End Applications:**  
-     - [ ] [PROJECT6: Restaurant Reviews App]()    
+     - [x] [PROJECT6: Restaurant Reviews App](https://dianavile.github.io/mws-restaurant-stage-1/)    
   - **5.&nbsp;Building with React:**  
      - [ ] [PROJECT7: MyReads -a book tracking app]() 
      - [ ] [PROJECT8: Neighbour Map]() 
