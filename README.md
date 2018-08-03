@@ -20,7 +20,7 @@ Here you find all projects I have made.
   - **4.&nbsp;Front End Applications:**  
      - [x] [PROJECT6: Restaurant Reviews App](https://dianavile.github.io/mws-restaurant-stage-1/)    
   - **5.&nbsp;Building with React:**  
-     - [ ] [PROJECT7: MyReads -a book tracking app]() 
+     - [x] [PROJECT7: MyReads -a book tracking app](https://github.com/dianavile/React-MyBooks) 
      - [ ] [PROJECT8: Neighbour Map]() 
 
  
