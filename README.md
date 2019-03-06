@@ -11,19 +11,22 @@ Here you find all projects I have made.
  - **1.&nbsp;Web Foundations:**  
      - [x] [PROJECT1: Animal Trading Cards](https://codepen.io/dianavile/pen/VQMOYp)  
      - [x] [[PROJECT2: Portfolio Site](https://dianavile.github.io/Udacity-Portfolio/)   
-  - **2.&nbsp;Web Programming with JavaScript:**  
+ 
+ - **2.&nbsp;Web Programming with JavaScript:**  
      - [x] [PROJECT3: MemoryGame](https://dianavile.github.io/Memory/)  
+ 
  - **3.&nbsp;Exploring JS - Objects, Tools and Testing**  
      - [x] [PROJECT4: Classic Arcade Game clone](https://dianavile.github.io/ArcadeGame/) 
      - [x] [PROJECT5: Feed Reader testing](https://dianavile.github.io/Jasmine-Test-FeedReader/)
   
   - **4.&nbsp;Front End Applications:**  
      - [x] [PROJECT6: Restaurant Reviews App](https://dianavile.github.io/mws-restaurant-stage-1/)    
-  - **5.&nbsp;Building with React:**  
+ 
+ - **5.&nbsp;Building with React:**  
      - [x] [PROJECT7: MyReads -a book tracking app](https://github.com/dianavile/React-MyBooks) 
      - [x] [PROJECT8: NeighbourhoodMap](https://github.com/dianavile/NeighbourhoodMap) 
 
 
-https://confirm.udacity.com/M2HMD3PD
+
 
  
