@@ -21,6 +21,6 @@ Here you find all projects I have made.
      - [x] [PROJECT6: Restaurant Reviews App](https://dianavile.github.io/mws-restaurant-stage-1/)    
   - **5.&nbsp;Building with React:**  
      - [x] [PROJECT7: MyReads -a book tracking app](https://github.com/dianavile/React-MyBooks) 
-     - [ ] [PROJECT8: NeighbourhoodMap]() 
+     - [x] [PROJECT8: NeighbourhoodMap](https://github.com/dianavile/NeighbourhoodMap) 
 
  
